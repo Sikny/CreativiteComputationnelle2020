@@ -22,7 +22,7 @@
     <list default="true" id="6eae4bcc-ff7e-40ad-9f87-52ec706ee2f8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CreativiteComputationnelle/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CreativiteComputationnelle/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/PlanetarySystemTool/StarSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlanetarySystemTool/StarSystem.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/TestsScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/TestsScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlanetarySystemTool/SystemPlanet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlanetarySystemTool/SystemPlanet.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,8 +39,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Procedural Planets/Planet.cs" />
-        <option value="$PROJECT_DIR$/Assets/PlanetarySystemTool/SystemPlanet.cs" />
         <option value="$PROJECT_DIR$/Assets/PlanetarySystemTool/StarSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/PlanetarySystemTool/SystemPlanet.cs" />
       </list>
     </option>
   </component>
@@ -87,7 +87,7 @@
       <workItem from="1605691447814" duration="512000" />
       <workItem from="1605697295849" duration="692000" />
       <workItem from="1605705004017" duration="8948000" />
-      <workItem from="1605726242917" duration="3624000" />
+      <workItem from="1605726242917" duration="4605000" />
     </task>
     <servers />
   </component>

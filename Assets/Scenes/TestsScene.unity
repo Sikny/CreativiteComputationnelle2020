@@ -427,12 +427,14 @@ MonoBehaviour:
     revolutionAxis: {x: 0, y: 1, z: 0}
     revolutionSpeed: 10
     planet: {fileID: 367089516}
-    lineRenderer: {fileID: 0}
-  - planetOrbit: 6
-    rotationSpeed: 7
-    revolutionAxis: {x: 0, y: 1, z: 0}
-    revolutionSpeed: 15
-    planet: {fileID: 1903227035}
+    satellites:
+    - planetOrbit: 1
+      rotationSpeed: 5
+      revolutionAxis: {x: 0, y: 1, z: 0}
+      revolutionSpeed: 10
+      planet: {fileID: 1903227035}
+      satellites: []
+      lineRenderer: {fileID: 0}
     lineRenderer: {fileID: 0}
   timeSpeed: 1
 --- !u!4 &1694143443
@@ -537,7 +539,7 @@ Transform:
   m_GameObject: {fileID: 1903227031}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 4, y: 0, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_LocalScale: {x: 0.25, y: 0.25, z: 0.25}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 5

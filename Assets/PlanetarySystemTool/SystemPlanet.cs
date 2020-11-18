@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using UnityEngine;
 
 namespace PlanetarySystemTool {
@@ -11,6 +12,8 @@ namespace PlanetarySystemTool {
         
         public Transform planet;
 
+        public List<SystemPlanet> satellites;
+
         [HideInInspector] public LineRenderer lineRenderer;
 
         public void Init(Material mat, Transform parent) {
@@ -21,6 +24,10 @@ namespace PlanetarySystemTool {
             lineRenderer.startWidth = 1f;
             lineRenderer.endWidth = 1f;
             lineRenderer.sharedMaterial = mat;
+            for (int i = satellites.Count - 1; i >= 0; --i) {
+                satellites[i].Init(mat, parent);
+                satellites[i].planet.parent = planet;
+            }
         }
         
         public void DrawCircle() {
@@ -30,6 +37,15 @@ namespace PlanetarySystemTool {
             for (int i = 0; i < lineRenderer.positionCount; ++i) {
                 lineRenderer.SetPosition(i, planetOrbit * new Vector3((float) Math.Cos(Mathf.Deg2Rad * angle), 0, (float) Math.Sin(Mathf.Deg2Rad * angle)));
                 angle += 360f / segmentCount;
+            }
+        }
+
+        public void Update(float time) {
+            for (int i = satellites.Count - 1; i >= 0; --i) {
+                var satInfo = satellites[i];
+                satInfo.planet.RotateAround(planet.position, satInfo.revolutionAxis, satInfo.revolutionSpeed * time);
+                satInfo.planet.Rotate(satInfo.planet.up, satInfo.rotationSpeed * time);
+                satInfo.DrawCircle();
             }
         }
     }
