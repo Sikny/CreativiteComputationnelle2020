@@ -1,13 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6eae4bcc-ff7e-40ad-9f87-52ec706ee2f8" name="Default Changelist" comment="" />
+    <list default="true" id="6eae4bcc-ff7e-40ad-9f87-52ec706ee2f8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CreativiteComputationnelle/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CreativiteComputationnelle/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CreativiteComputationnelle/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CreativiteComputationnelle/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/PlanetarySystemTool/SystemPlanet.cs" />
+      </list>
+    </option>
+  </component>
   <component name="ProjectId" id="1kSQE12rm05bu964XlKWov9pMG3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -47,6 +61,7 @@
       <option name="presentableId" value="Default" />
       <updated>1605691430905</updated>
       <workItem from="1605691447814" duration="512000" />
+      <workItem from="1605697295849" duration="692000" />
     </task>
     <servers />
   </component>

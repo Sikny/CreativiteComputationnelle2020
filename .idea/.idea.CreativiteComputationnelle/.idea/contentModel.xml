@@ -7,6 +7,10 @@
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="PlanetarySystemTool" t="Include">
+          <e p="StarSystem.cs" t="Include" />
+          <e p="SystemPlanet.cs" t="Include" />
+        </e>
         <e p="Procedural Planets" t="Include">
           <e p="ColourGenerator.cs" t="Include" />
           <e p="ColourSettings.cs" t="Include" />
