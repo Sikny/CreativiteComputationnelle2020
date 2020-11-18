@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 897b9f1cb1211c146b0050c62299a341, type: 3}
+  m_Name: EarthShape
+  m_EditorClassIdentifier: 
+  planetRadius: 2.72
+  noiseLayers:
+  - enabled: 1
+    useFirstLayerAsMask: 1
+    noiseSettings:
+      filterType: 1
+      simpleNoiseSettings:
+        strength: 0.88
+        numLayers: 4
+        baseRoughness: 0.85
+        roughness: 2.56
+        persistence: 0.62
+        centre: {x: 0, y: 0, z: 0}
+        minValue: 2.79
+      ridgidNoiseSettings:
+        strength: 0.02
+        numLayers: 6
+        baseRoughness: 0.91
+        roughness: 4.5
+        persistence: 5.45
+        centre: {x: 1.3, y: 1.07, z: 1.11}
+        minValue: 0.48
+        weightMultiplier: 0
+  - enabled: 1
+    useFirstLayerAsMask: 0
+    noiseSettings:
+      filterType: 0
+      simpleNoiseSettings:
+        strength: 0.045
+        numLayers: 2
+        baseRoughness: 0.69
+        roughness: 9.66
+        persistence: 0.13
+        centre: {x: 0, y: 0, z: 0}
+        minValue: 0.57
+      ridgidNoiseSettings:
+        strength: 0.14
+        numLayers: 4
+        baseRoughness: 1.93
+        roughness: 2.83
+        persistence: 0.5
+        centre: {x: 0, y: 0, z: 0}
+        minValue: 0
+        weightMultiplier: 0.93
+  - enabled: 1
+    useFirstLayerAsMask: 0
+    noiseSettings:
+      filterType: 0
+      simpleNoiseSettings:
+        strength: 0.025
+        numLayers: 2
+        baseRoughness: 0.39
+        roughness: 6.83
+        persistence: -0.55
+        centre: {x: 0, y: 0, z: 0}
+        minValue: 0
+      ridgidNoiseSettings:
+        strength: 0.14
+        numLayers: 4
+        baseRoughness: 1.93
+        roughness: 2.83
+        persistence: 0.5
+        centre: {x: 0, y: 0, z: 0}
+        minValue: 0
+        weightMultiplier: 0.93
