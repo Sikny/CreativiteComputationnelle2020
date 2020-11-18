@@ -20,7 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9b8ec648-709d-4e05-9029-b67fcd872a39" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene/Main Camera Profile.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene/Main Camera Profile.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PlanetarySystemTool/StarSystemCamera.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/PlanetarySystemTool/StarSystemCamera.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CreativiteComputationnelle2020/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CreativiteComputationnelle2020/.idea/contentModel.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,11 +32,15 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/PlanetarySystemTool/StarSystemCamera.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/StarSystemUI.cs" />
         <option value="$PROJECT_DIR$/Assets/PlanetarySystemTool/StarSystemUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/PlanetarySystemTool/StarSystemCamera.cs" />
       </list>
     </option>
   </component>
@@ -83,7 +89,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605733881871</updated>
-      <workItem from="1605733889507" duration="1849000" />
+      <workItem from="1605733889507" duration="2764000" />
     </task>
     <servers />
   </component>
@@ -105,5 +111,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="436" y="109" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1605737073087">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="436" y="109" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/-3840.-478.1536.848/0.0.1920.1040@0.0.1920.1040" timestamp="1605737073087" />
   </component>
 </project>
