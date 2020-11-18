@@ -18,8 +18,8 @@ namespace PlanetarySystemTool {
             lineRendererGo.transform.parent = parent;
             lineRenderer = lineRendererGo.AddComponent<LineRenderer>();
             lineRenderer.loop = true;
-            lineRenderer.startWidth = 0.05f;
-            lineRenderer.endWidth = 0.05f;
+            lineRenderer.startWidth = 1f;
+            lineRenderer.endWidth = 1f;
             lineRenderer.sharedMaterial = mat;
         }
         
