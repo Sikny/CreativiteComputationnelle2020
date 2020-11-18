@@ -25,7 +25,7 @@ namespace PlanetarySystemTool {
             for (int i = planetsInfo.Count - 1; i >= 0; --i) {
                 var planetInfo = planetsInfo[i];
 
-                planetInfo.planet.position = planetInfo.planetOrbit * new Vector3((float) Math.Cos(_currentTime), 0, (float) Math.Sin(_currentTime));
+                planetInfo.planet.position = planetInfo.planetOrbit * new Vector3(Mathf.Cos(_currentTime * planetInfo.revolutionSpeed),0, Mathf.Sin(_currentTime * planetInfo.revolutionSpeed)).normalized;
                 /*planetInfo.planet.position = (planetInfo.planet.position - star.position).normalized * planetInfo.planetOrbit;
                 planetInfo.planet.RotateAround(star.position, planetInfo.revolutionAxis, planetInfo.revolutionSpeed * time);*/
                 planetInfo.planet.Rotate(planetInfo.planet.up, planetInfo.rotationSpeed * time);
