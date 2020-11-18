@@ -15,36 +15,57 @@ MonoBehaviour:
   planetRadius: 2.72
   noiseLayers:
   - enabled: 1
-    useFirstLayerAsMask: 0
-    noiseSettings:
-      filterType: 0
-      simpleNoiseSettings:
-        strength: 0.15
-        numLayers: 4
-        baseRoughness: 0.8
-        roughness: 2.21
-        persistence: 0.5
-        centre: {x: 0, y: 0, z: 0}
-        minValue: 0.98
-      ridgidNoiseSettings:
-        strength: 0
-        numLayers: 0
-        baseRoughness: 0
-        roughness: 0
-        persistence: 0
-        centre: {x: 0, y: 0, z: 0}
-        minValue: 0
-        weightMultiplier: 0
-  - enabled: 1
     useFirstLayerAsMask: 1
     noiseSettings:
       filterType: 1
       simpleNoiseSettings:
-        strength: 0
-        numLayers: 0
-        baseRoughness: 0
-        roughness: 0
-        persistence: 0
+        strength: 0.88
+        numLayers: 3
+        baseRoughness: 0.8
+        roughness: 2.56
+        persistence: 0.47
+        centre: {x: 0, y: 0, z: 0}
+        minValue: 1.31
+      ridgidNoiseSettings:
+        strength: 0.2
+        numLayers: 3
+        baseRoughness: 0.4
+        roughness: 1.66
+        persistence: 5.41
+        centre: {x: 0, y: 0, z: 0}
+        minValue: 1.54
+        weightMultiplier: 0
+  - enabled: 1
+    useFirstLayerAsMask: 0
+    noiseSettings:
+      filterType: 0
+      simpleNoiseSettings:
+        strength: 0.11
+        numLayers: 5
+        baseRoughness: 0.69
+        roughness: 8.24
+        persistence: 0.13
+        centre: {x: 0, y: 0, z: 0}
+        minValue: 0.75
+      ridgidNoiseSettings:
+        strength: 0.14
+        numLayers: 4
+        baseRoughness: 1.93
+        roughness: 2.83
+        persistence: 0.5
+        centre: {x: 0, y: 0, z: 0}
+        minValue: 0
+        weightMultiplier: 0.93
+  - enabled: 1
+    useFirstLayerAsMask: 0
+    noiseSettings:
+      filterType: 0
+      simpleNoiseSettings:
+        strength: 0.3
+        numLayers: 5
+        baseRoughness: 0.39
+        roughness: 5.17
+        persistence: 0.21
         centre: {x: 0, y: 0, z: 0}
         minValue: 0
       ridgidNoiseSettings:
