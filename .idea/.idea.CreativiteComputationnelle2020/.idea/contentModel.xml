@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Antoine\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Antoine\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_CreativiteComputationnelle2020.45777439.00" t="ExcludeRecursive" />
+    <e p="D:\0-Workspace\Unity\Projects\CreativiteComputationnelle2020" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="PlanetarySystemTool" t="Include">
+          <e p="StarSystem.cs" t="Include" />
+          <e p="StarSystemUI.cs" t="Include" />
+          <e p="SystemPlanet.cs" t="Include" />
+        </e>
+        <e p="Procedural Planets" t="Include">
+          <e p="ColourGenerator.cs" t="Include" />
+          <e p="ColourSettings.cs" t="Include" />
+          <e p="ConditionalHideAttribute.cs" t="Include" />
+          <e p="Editor" t="Include">
+            <e p="ConditionalHidePropertyDrawer.cs" t="Include" />
+            <e p="PlanetEditor.cs" t="Include" />
+          </e>
+          <e p="INoiseFilter.cs" t="Include" />
+          <e p="MinMax.cs" t="Include" />
+          <e p="Noise.cs" t="Include" />
+          <e p="NoiseFilterFactory.cs" t="Include" />
+          <e p="NoiseSettings.cs" t="Include" />
+          <e p="Planet.cs" t="Include" />
+          <e p="RidgidNoiseFilter.cs" t="Include" />
+          <e p="ShapeGenerator.cs" t="Include" />
+          <e p="ShapeSettings.cs" t="Include" />
+          <e p="SimpleNoiseFilter.cs" t="Include" />
+          <e p="TerrainFace.cs" t="Include" />
+        </e>
+      </e>
+      <e p="CreativiteComputationnelle2020.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
