@@ -21,10 +21,12 @@
   <component name="ChangeListManager">
     <list default="true" id="6eae4bcc-ff7e-40ad-9f87-52ec706ee2f8" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CreativiteComputationnelle/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CreativiteComputationnelle/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Planets/Alien.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Planets/Alien.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Planets/Earth.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Planets/Earth.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/PlanetarySystemTool/StarSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlanetarySystemTool/StarSystem.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/PlanetarySystemTool/SystemPlanet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlanetarySystemTool/SystemPlanet.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Procedural Planets/Graphics/Planet Mat.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Procedural Planets/Graphics/Planet Mat.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/TestsScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/TestsScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,8 +42,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/PlanetarySystemTool/SystemPlanet.cs" />
+        <option value="$PROJECT_DIR$/Assets/Procedural Planets/Planet.cs" />
         <option value="$PROJECT_DIR$/Assets/PlanetarySystemTool/StarSystem.cs" />
+        <option value="$PROJECT_DIR$/Assets/PlanetarySystemTool/SystemPlanet.cs" />
       </list>
     </option>
   </component>
@@ -87,7 +90,7 @@
       <updated>1605691430905</updated>
       <workItem from="1605691447814" duration="512000" />
       <workItem from="1605697295849" duration="692000" />
-      <workItem from="1605705004017" duration="887000" />
+      <workItem from="1605705004017" duration="8947000" />
     </task>
     <servers />
   </component>
@@ -110,5 +113,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1605711577720">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1605711577720" />
   </component>
 </project>
