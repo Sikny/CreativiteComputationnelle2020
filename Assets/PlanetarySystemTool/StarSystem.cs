@@ -13,7 +13,6 @@ namespace PlanetarySystemTool {
 
         private void Awake() {
             for (int i = planetsInfo.Count - 1; i >= 0; --i) {
-                planetsInfo[i].planet.position = transform.right * planetsInfo[i].planetOrbit;
                 planetsInfo[i].Init(lineRendererMaterial, transform);
             }
         }

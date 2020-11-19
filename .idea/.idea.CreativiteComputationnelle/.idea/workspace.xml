@@ -20,9 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6eae4bcc-ff7e-40ad-9f87-52ec706ee2f8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CreativiteComputationnelle/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CreativiteComputationnelle/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CreativiteComputationnelle/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CreativiteComputationnelle/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/PlanetarySystemTool/StarSystem.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlanetarySystemTool/StarSystem.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/PlanetarySystemTool/StarSystemCamera.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlanetarySystemTool/StarSystemCamera.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/PlanetarySystemTool/SystemPlanet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlanetarySystemTool/SystemPlanet.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,6 +43,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Procedural Planets/Planet.cs" />
+        <option value="$PROJECT_DIR$/Assets/PlanetarySystemTool/StarSystemCamera.cs" />
         <option value="$PROJECT_DIR$/Assets/PlanetarySystemTool/StarSystem.cs" />
         <option value="$PROJECT_DIR$/Assets/PlanetarySystemTool/SystemPlanet.cs" />
       </list>
@@ -88,6 +93,8 @@
       <workItem from="1605697295849" duration="692000" />
       <workItem from="1605705004017" duration="8948000" />
       <workItem from="1605726242917" duration="4605000" />
+      <workItem from="1605758896502" duration="6000" />
+      <workItem from="1605758995044" duration="1378000" />
     </task>
     <servers />
   </component>

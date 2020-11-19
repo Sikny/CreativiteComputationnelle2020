@@ -17,6 +17,7 @@ namespace PlanetarySystemTool {
         [HideInInspector] public LineRenderer lineRenderer;
 
         public void Init(Material mat, Transform parent) {
+            planet.localPosition = parent.right * planetOrbit;
             GameObject lineRendererGo = new GameObject("LineRenderer " + planet.gameObject.name);
             lineRendererGo.transform.parent = parent;
             lineRenderer = lineRendererGo.AddComponent<LineRenderer>();
@@ -26,7 +27,8 @@ namespace PlanetarySystemTool {
             lineRenderer.sharedMaterial = mat;
             for (int i = satellites.Count - 1; i >= 0; --i) {
                 satellites[i].Init(mat, parent);
-                satellites[i].planet.parent = planet;
+                satellites[i].planet.position = planet.position + planet.right * satellites[i].planetOrbit;
+                //satellites[i].planet.parent = planet;
             }
         }
         

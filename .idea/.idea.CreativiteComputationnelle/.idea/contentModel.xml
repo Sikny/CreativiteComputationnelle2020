@@ -9,6 +9,8 @@
       <e p="Assets" t="Include">
         <e p="PlanetarySystemTool" t="Include">
           <e p="StarSystem.cs" t="Include" />
+          <e p="StarSystemCamera.cs" t="Include" />
+          <e p="StarSystemUI.cs" t="Include" />
           <e p="SystemPlanet.cs" t="Include" />
         </e>
         <e p="Procedural Planets" t="Include">

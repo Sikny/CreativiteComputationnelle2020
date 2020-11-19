@@ -14,15 +14,15 @@ public class StarSystemCamera : MonoBehaviour
     public Vector3 stationaryPosition;
 
     [Header("Inputs")]
-    public string decreasePlanetId;
-    public string increasePlanetId;
-    public string decreaseMode;
-    public string increaseMode;
+    public KeyCode decreasePlanetId;
+    public KeyCode increasePlanetId;
+    public KeyCode decreaseMode;
+    public KeyCode increaseMode;
     
 
     void Update()
     {
-        Debug.Log(cameraState.GetHashCode());
+        //Debug.Log(cameraState.GetHashCode());
         updateMode();
         updateTarget();
         clampPlanetId();
@@ -65,9 +65,11 @@ public class StarSystemCamera : MonoBehaviour
         if (Input.GetKeyDown(decreasePlanetId))
         {
             planetId -= 1;
+            if (planetId < 0) planetId = system.planetsInfo.Count - 1;
         }else if (Input.GetKeyDown(increasePlanetId))
         {
             planetId += 1;
+            if (planetId >= system.planetsInfo.Count) planetId = 0;
         }
     }
     
