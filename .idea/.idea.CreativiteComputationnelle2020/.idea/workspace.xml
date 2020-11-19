@@ -22,7 +22,6 @@
     <list default="true" id="9b8ec648-709d-4e05-9029-b67fcd872a39" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CreativiteComputationnelle2020/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CreativiteComputationnelle2020/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/PlanetarySystemTool/StarSystemCamera.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlanetarySystemTool/StarSystemCamera.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +88,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605733881871</updated>
-      <workItem from="1605733889507" duration="3867000" />
+      <workItem from="1605733889507" duration="6890000" />
     </task>
     <servers />
   </component>

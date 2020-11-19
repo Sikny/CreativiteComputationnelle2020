@@ -5,29 +5,27 @@ using UnityEngine;
 
 public class StarSystemCamera : MonoBehaviour
 {
-    public enum CameraState {stationary,follow,look}
+    public enum CameraState: int {stationary,follow,look}
     
     public CameraState cameraState;
     public int planetId;
     public Vector3 followOffset;
     public StarSystem system;
-    private Vector3 stationaryPosition;
-    // Start is called before the first frame update
-    void Start()
-    {
-        stationaryPosition = transform.position;
-    }
+    public Vector3 stationaryPosition;
 
-    // Update is called once per frame
+    [Header("Inputs")]
+    public string decreasePlanetId;
+    public string increasePlanetId;
+    public string decreaseMode;
+    public string increaseMode;
+    
+
     void Update()
     {
-        if(planetId >= system.planetsInfo.Count)
-        {
-            planetId = system.planetsInfo.Count - 1;
-        }else if(planetId < 0)
-        {
-            planetId = 0;
-        }
+        Debug.Log(cameraState.GetHashCode());
+        updateMode();
+        updateTarget();
+        clampPlanetId();
         switch (cameraState)
         {
             case CameraState.stationary:
@@ -35,12 +33,54 @@ public class StarSystemCamera : MonoBehaviour
                 transform.LookAt(system.star);
                 break;
             case CameraState.follow:
+                updateTarget();
                 transform.position = followOffset + system.planetsInfo[planetId].planet.position;
                 transform.LookAt(system.planetsInfo[planetId].planet);
                 break;
             case CameraState.look:
+                transform.position = stationaryPosition;
                 transform.LookAt(system.planetsInfo[planetId].planet);
                 break;
         }
     }
+
+    private void updateMode()
+    {
+        int hash = cameraState.GetHashCode();
+        if (Input.GetKeyDown(decreaseMode))
+        {
+            hash -= 1;
+        }else if (Input.GetKeyDown(increaseMode))
+        {
+            hash += 1;
+        }
+
+        if (hash > 2) hash = 0;
+        if (hash < 0) hash = 2;
+        cameraState = (CameraState) hash;
+    }
+
+    private void updateTarget()
+    {
+        if (Input.GetKeyDown(decreasePlanetId))
+        {
+            planetId -= 1;
+        }else if (Input.GetKeyDown(increasePlanetId))
+        {
+            planetId += 1;
+        }
+    }
+    
+    private void clampPlanetId()
+    {
+        if (planetId >= system.planetsInfo.Count)
+        {
+            planetId = system.planetsInfo.Count - 1;
+        }
+        else if (planetId < 0)
+        {
+            planetId = 0;
+        }
+    }
+
 }
