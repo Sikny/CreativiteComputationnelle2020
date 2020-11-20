@@ -25,7 +25,6 @@ public class StarSystemCamera : MonoBehaviour
         //Debug.Log(cameraState.GetHashCode());
         updateMode();
         updateTarget();
-        clampPlanetId();
         switch (cameraState)
         {
             case CameraState.stationary:
@@ -33,7 +32,6 @@ public class StarSystemCamera : MonoBehaviour
                 transform.LookAt(system.star);
                 break;
             case CameraState.follow:
-                updateTarget();
                 transform.position = followOffset + system.planetsInfo[planetId].planet.position;
                 transform.LookAt(system.planetsInfo[planetId].planet);
                 break;
@@ -70,18 +68,6 @@ public class StarSystemCamera : MonoBehaviour
         {
             planetId += 1;
             if (planetId >= system.planetsInfo.Count) planetId = 0;
-        }
-    }
-    
-    private void clampPlanetId()
-    {
-        if (planetId >= system.planetsInfo.Count)
-        {
-            planetId = system.planetsInfo.Count - 1;
-        }
-        else if (planetId < 0)
-        {
-            planetId = 0;
         }
     }
 
